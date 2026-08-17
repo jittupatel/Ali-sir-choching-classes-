@@ -1,0 +1,23 @@
+# humanstxt.org/
+# The humans behind Ali Sir Coaching Classes
+
+Site: Ali Sir Coaching Classes
+Location: Itarsi, Madhya Pradesh, India
+Contact: +91 96309 48589
+WhatsApp: +91 96309 48589
+
+Team:
+- Ali Sir
+- Coaching faculty for Accounts, Economics, and Business Studies
+- Commerce education specialist for Class 11th and 12th students
+
+Mission:
+To provide simple, clear, and high-quality commerce coaching in Itarsi with practical learning, concept clarity, and academic excellence.
+
+Technology:
+- HTML
+- CSS
+- JavaScript
+- Static website SEO optimization
+
+Last update: 2026-08-17

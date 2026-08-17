@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ali-sir-coaching.netlify.app/sitemap.xml
+
+# SEO configuration for Ali Sir Coaching Classes
+# Primary focus: Itarsi, MP Board, Accounts, Economics, Business Studies
+# Main target audience: Class 11th and 12th commerce students and parents

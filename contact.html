@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  
+  <title>Contact | Ali Sir Coaching Classes</title>
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial;
+      background: #eef2ff;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #0b3d91;
+      color: white;
+      padding: 12px 18px;
+    }
+    
+    .logo img {
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+    }
+    
+    .title {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    
+    .menu {
+      font-size: 28px;
+      cursor: pointer;
+    }
+    
+    .sidebar {
+      position: fixed;
+      top: 0;
+      right: -260px;
+      width: 260px;
+      height: 100%;
+      background: #0b3d91;
+      transition: .3s;
+      padding-top: 60px;
+      z-index: 1000;
+    }
+    
+    .sidebar a {
+      display: block;
+      color: white;
+      padding: 15px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, .4);
+      display: none;
+      z-index: 999;
+    }
+    
+    main {
+      flex: 1;
+      padding: 40px;
+    }
+    
+    .contact-card {
+      max-width: 500px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
+    }
+    
+    .contact-card h2 {
+      margin-bottom: 10px;
+    }
+    
+    .contact-card p {
+      margin-bottom: 8px;
+    }
+    
+    form {
+      margin-top: 20px;
+    }
+    
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    
+    button {
+      padding: 12px 20px;
+      background: #0b3d91;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      margin-top: 20px;
+    }
+    
+    
+    footer {
+      background: #0b3d91;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    
+    footer>a {
+      margin-top: 5px;
+      padding-top: 10px;
+      text-decoration: none;
+      color: #e1f1ff;
+    }
+  </style>
+  
+</head>
+
+<body>
+  
+  <header>
+    
+    <div class="logo">
+      <img src="https://img.freepik.com/premium-vector/education-school-logo-design_586739-1327.jpg">
+    </div>
+    
+    <div class="title">Ali Sir Coaching Classes</div>
+    
+    <div class="menu" onclick="openMenu()">☰</div>
+    
+  </header>
+  
+  <div class="overlay" id="overlay" onclick="closeMenu()"></div>
+  
+  <div class="sidebar" id="sidebar">
+    
+    <a href="index.html">Home</a>
+    <a href="courses.html">Courses</a>
+    <a href="contact.html">Contact</a>
+    
+  </div>
+  
+  <main>
+    
+    <div class="contact-card">
+      
+      <h2>Contact Us</h2>
+      <h2>Irfan Ail sir</h2>
+      
+      <p>📍 Location: Itarsi naramadapuram MP India</p>
+      <p>📞 Phone: +91 96309 48589</p>
+      <p>💬 WhatsApp: +91 96309 48589</p>
+      
+      <a href="tel:+919630948589"><button> Call now</button></a>
+      <a href="https://wa.me/919630948589"> <button>WhatsApp only for massage</button></a>
+    </div>
+    
+  </main>
+  
+  <footer>
+    <p>© 2026 Ali Sir Coaching Classes</p>
+    <a href="https://jitendra-patel-portfolio.netlify.app/" target="_blank">Devloper
+      About Us</a>
+    
+  </footer>
+  
+  <script>
+    function openMenu() {
+      document.getElementById("sidebar").style.right = "0"
+      document.getElementById("overlay").style.display = "block"
+    }
+    
+    function closeMenu() {
+      document.getElementById("sidebar").style.right = "-260px"
+      document.getElementById("overlay").style.display = "none"
+    }
+  </script>
+  
+</body>
+
+</html>
